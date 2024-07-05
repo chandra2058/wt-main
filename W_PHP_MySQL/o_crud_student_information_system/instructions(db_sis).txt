@@ -1,0 +1,21 @@
+1. create a database:
+---------------------
+create database `db_sis`;
+
+2. create a table:
+------------------
+create table students
+(
+    `s_id` int(2) primary key not null auto_increment,
+    `s_name` varchar(25) not null,
+    `s_address` varchar(50) not null,
+    `s_class` varchar(50) not null,
+    `s_email` varchar(25) not null,
+    `s_con_no` varchar(10) not null,
+    `s_crn` varchar(10) not null,
+    `s_reg_no` varchar(13) not null,
+    `s_dob` date not null,
+    `s_gender` varchar(10) not null,
+    `s_guar_name` varchar(50) not null,
+    `s_photo` longblob not null
+);

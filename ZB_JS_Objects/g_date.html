@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Date Object</title>
+</head>
+
+<body>
+    <p id="box"></p>
+    <script>
+        // Initialize a new birthday instance
+        const date_today = new Date(2024, 7, 3, 10, 12, 15, 59);
+
+        document.getElementById("box").innerHTML = date_today.getFullYear();      // 2024
+        // document.getElementById("box").innerHTML = date_today.getMonth();         // 7
+        // document.getElementById("box").innerHTML = date_today.getDate();          // 3
+        // document.getElementById("box").innerHTML = date_today.getDay();           // 6
+        // document.getElementById("box").innerHTML = date_today.getHours();         // 10
+        // document.getElementById("box").innerHTML = date_today.getMinutes();       // 12
+        // document.getElementById("box").innerHTML = date_today.getSeconds();       // 15
+        // document.getElementById("box").innerHTML = date_today.getMilliseconds();  // 59
+        // document.getElementById("box").innerHTML = date_today.getTime();          // 1722659235059 (for GMT)
+    </script>
+</body>
+
+</html>

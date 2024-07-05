@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table properties using CSS</title>
+    <style>
+        table {
+            background-color: #c2c2c2;
+            margin: 0 auto;
+            width: 80%;
+        }
+        thead, tfoot
+        {
+            background-color: red;
+        }
+        tbody
+        {
+            background-color: yellow;
+        }
+        table,tr,td{
+            border: 2px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tfoot>
+            <tr>
+                <td>Roll No.</td>
+                <td>Name</td>
+                <td>Address</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram</td>
+                <td>Pokhara</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sita</td>
+                <td>Chitwan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Laxman</td>
+                <td>Ghopteodar</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <td>Roll No.</td>
+                <td>Name</td>
+                <td>Address</td>
+            </tr>
+        </thead>
+
+    </table>
+</body>
+
+</html>

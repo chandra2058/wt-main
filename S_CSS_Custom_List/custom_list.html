@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom List with HTML and CSS</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        ol{
+            list-style: none;
+            /* counter-reset: num; */
+            counter-reset: num +3;
+        }
+        ol li{
+            counter-increment: num;
+            margin-bottom: 25px;
+        }
+        ol li::before
+        {
+            content: "0" counter(num);
+            padding: 5px;
+            margin-right: 10px;
+            background-color: red;
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            color: white;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            box-shadow: 2px 3px 4px #000;
+            /* font-size: 12px; */
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Nepal</li>
+        <li>India</li>
+        <li>China</li>
+        <li>Japan</li>
+        <li>Australia</li>
+        <li>USA</li>
+    </ol>
+</body>
+</html>

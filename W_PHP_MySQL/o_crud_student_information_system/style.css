@@ -1,0 +1,9 @@
+/*body {
+	background-color: #0084FF;
+}*/
+h1 {
+	text-align: center;
+}
+table tr:hover {
+	background-color: #FDE26E
+}

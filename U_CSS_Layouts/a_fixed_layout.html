@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Layout using HTML and CSS</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #mainWrap {
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+            /* background-color: red; */
+        }
+
+        #headerWrap {
+            width: 1200px;
+            height: auto;
+            /* 280px */
+            /* background-color: red; */
+        }
+
+        #logo_banner_Wrap {
+            width: 1200px;
+            height: 200px;
+        }
+
+        #logoWrap {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+        }
+
+        #bannerWrap {
+            width: 1000px;
+            height: 200px;
+            background-color: yellow;
+            float: right;
+        }
+
+        #menuWrap {
+            width: 1200px;
+            height: 80px;
+            background-color: aqua;
+        }
+
+        #msgWrap {
+            width: 1150px;
+            height: 450px;
+            padding: 25px;
+            font-size: 22px;
+            background-color: #b8b5bb;
+            /* overflow: hidden; */
+        }
+
+        #msgWrap img {
+            float: left;
+            margin-right: 25px;
+            width: 20%;
+            height: auto;
+        }
+
+        #departmentWrap {
+            width: 1100px;
+            height: 415px;
+            background-color: aqua;
+            padding: 50px;
+        }
+        #departmentWrap h1{
+            margin: 0 0 20px 0;
+            padding: 0;
+            text-transform: capitalize;
+        }
+        #depBoxWrap
+        {
+            width: 1100px;
+            height: auto;
+        }
+        #depBoxWrap .depBox
+        {
+            width: 300px;
+            height: 300px;
+            float: left;
+            padding: 33px;
+        }
+        #footerWrap {
+            width: 1200px;
+            height: 80px;
+            background-color: #2b2c2c;
+        }
+        #footerWrap p{
+            margin: 0;
+            padding: 32px 0 0 0;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainWrap">
+        <div id="headerWrap">
+            <div id="logo_banner_Wrap">
+                <div id="logoWrap"></div><!-- /logoWrap -->
+                <div id="bannerWrap"></div><!-- /bannerWrap -->
+            </div>
+            <div id="menuWrap"></div><!-- /menuWrap -->
+        </div>
+        <div id="msgWrap">
+            <!-- <img src="keshabsir.JPG" alt="" width="125" height="150"> -->
+            <img src="keshabsir.JPG" alt="">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, iste velit accusamus dicta aut,
+            molestiae rem quo iusto reiciendis sequi voluptatibus incidunt fugiat dolores aliquam voluptatum ab,
+            adipisci nulla tempore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, iste velit
+            accusamus dicta aut, molestiae rem quo iusto reiciendis sequi voluptatibus incidunt fugiat dolores aliquam
+            voluptatum ab, adipisci nulla tempore?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus,
+            iste velit accusamus dicta aut, molestiae rem quo iusto reiciendis sequi voluptatibus incidunt fugiat
+            dolores aliquam voluptatum ab, adipisci nulla tempore?Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Possimus, iste velit accusamus dicta aut, molestiae rem quo iusto reiciendis sequi voluptatibus
+            incidunt fugiat dolores aliquam voluptatum ab, adipisci nulla tempore?Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Possimus, iste velit accusamus dicta aut, molestiae rem quo iusto reiciendis
+            sequi voluptatibus incidunt fugiat dolores aliquam voluptatum ab, adipisci nulla tempore?Lorem ipsum, dolor
+            sit amet consectetur adipisicing elit. Possimus, iste velit accusamus dicta aut, molestiae rem quo iusto
+            reiciendis sequi voluptatibus incidunt fugiat dolores aliquam voluptatum ab, adipisci nulla tempore?Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Possimus, iste velit accusamus dicta aut, molestiae rem
+            quo iusto reiciendis sequi voluptatibus incidunt fugiat dolores aliquam voluptatum ab, adipisci nulla
+            tempore?Lorem ipsum, dolor sit amet consectetur adipisicing elit.adipisci nulla tempore.
+        </div> <!-- /msgWrap-->
+        <div id="departmentWrap">
+            <div>
+                <h1>departments</h1>
+            </div>
+            <div id="depBoxWrap">
+                <div class="depBox" style="background-color: red;"></div>
+                <div class="depBox" style="background-color: #2480b6;"></div>
+                <div class="depBox" style="background-color: #8ee71a;"></div>
+            </div>
+        </div>
+        <div id="footerWrap">
+            <p>&copy; 2024 Sanothimi Campus</p>
+        </div>
+    </div><!-- /mainWrap -->
+</body>
+
+</html>

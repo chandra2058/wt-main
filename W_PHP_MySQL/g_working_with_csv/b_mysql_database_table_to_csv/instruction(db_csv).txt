@@ -1,0 +1,23 @@
+1. creating database
+---------------------
+create database `db_csv`;
+
+2. creating table
+-----------------
+create table `users` (
+  `id` int(11) not null primary key auto_increment,
+  `username` varchar(255) not null,
+  `name` varchar(255) not null,
+  `gender` varchar(10) not null,
+  `email` varchar(100) not null
+);
+
+3. inserting data into data table
+---------------------------------
+insert into `users`(`username`, `name`, `gender`, `email`) 
+VALUES 
+('ram','ram thapa','male','ram@gmail.com'),
+('sita','sita thapa','male','ram5@gmail.com'),
+('hari','hari thapa','female','ram3@gmail.com'),
+('gita','gita thapa','male','ram2@gmail.com'),
+('nita','nita thapa','female','ram78@gmail.com');

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="hello"></p>
+    <script>
+        const Student = {
+            name: "Ram",
+            address: "Kathmandu",
+            dob: new Date('2000-02-14')
+        };
+        document.getElementById("hello").innerHTML = Student['name'] + " lives in " + Student['address'] + " and date of birth is " + Student['dob'];
+    </script>
+</body>
+
+</html>
